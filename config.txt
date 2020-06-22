@@ -1,0 +1,14 @@
+********* Angular Installation *********
+Install Angular: npx @angular/cli new project
+Install Bootstrap: npx ng add @ng-bootstrap/ng-bootstrap
+
+********* Data Binding *********
+String Interpolation: {{data}}
+Property Binding: [property]="data"
+Event Binding: (event)="function"
+Two way binding: [(ngModel)]="data"
+
+********* Directives *********
+Are instruction in our DOM!
+Structural directives: * to all structural directives that means it changes the structure of the DOM
+Attribute directories: change the elemente they are placed on
