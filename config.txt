@@ -12,3 +12,5 @@ Two way binding: [(ngModel)]="data"
 Are instruction in our DOM!
 Structural directives: * to all structural directives that means it changes the structure of the DOM
 Attribute directories: change the elemente they are placed on
+
+--skipTests true <- if i don't want to create the test files
