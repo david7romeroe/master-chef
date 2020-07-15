@@ -14,3 +14,10 @@ Structural directives: * to all structural directives that means it changes the 
 Attribute directories: change the elemente they are placed on
 
 --skipTests true <- if i don't want to create the test files
+
+********* Services *********
+they are injected in the constructor
+
+Uses example: 
+    * save data in one place
+    * access reusables methods

@@ -6,7 +6,7 @@
 <hr>
 <div class="row">
     <div class="col-sm-12">
-        <app-recipe-item (selectedRecipe)="selectedRecipe($event)" *ngFor="let recipeEl of recipes" [recipe]="recipeEl"></app-recipe-item>
+        <app-recipe-item *ngFor="let recipeEl of recipes" [recipe]="recipeEl"></app-recipe-item>
     </div>
 </div>
 
